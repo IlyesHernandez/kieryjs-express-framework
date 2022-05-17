@@ -1,0 +1,24 @@
+{
+  "name": "kieryjs",
+  "version": "0.0.1",
+  "description": "FRAMEWORK",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyesHernandez/kieryjs-express-framework.git"
+  },
+  "author": "Ilyès Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyesHernandez/kieryjs-express-framework/issues"
+  },
+  "homepage": "https://github.com/IlyesHernandez/kieryjs-express-framework#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
