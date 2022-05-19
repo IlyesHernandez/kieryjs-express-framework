@@ -1,25 +1,22 @@
+// import all module
 const _e = require('express');
 const chalk = require('chalk');
 const path = require('path')
 const app = _e();
 
-function createServer(config){
-    port = config.port
-    index = config.index
-    varPage = config.varPage
-    staticFolder = config.staticFolder
-    app.set('view engine', 'ejs');
-    app.use(_e.static(staticFolder))
-    app.use('/static', _e.static(path.join(__dirname, staticFolder)))
-    app.get('/', (req, res) => {
-        res.render(path.join(__dirname, 'views', index), varPage)
-    });
-    app.listen(port, () => {
-        console.log(chalk.yellow('[!] Server Build...'))
-        setTimeout(function(){
-            console.log(chalk.greenBright('[!] Server open on ', chalk.bgWhiteBright('http://localhost:', port)))
-        },2000);
-    });
-}
+// import all functions
+const { createServer } = require('./function/createServer');
+const { createPage } = require('./function/createPage')
 
+const package = require('./package.json');
+
+currentVersion_ = package.version
+currentAuthor_ = package.author.name + ' ' + package.author.email
+
+console.log(chalk.blueBright("PACKAGE VERSION : " + currentVersion_))
+console.log(chalk.blueBright("PACKAGE AUTHOR : " + currentAuthor_))
+console.log(chalk.white('---'))
+
+// exports all function
 module.exports.createServer = createServer;
+module.exports.createPage = createPage;
