@@ -26,7 +26,9 @@ kieryjs.createPage({
 ## Installation
 KieryJS is available on [nodejs](https://nodejs.org/), before installing, [download and install Node.js](https://nodejs.org/en/download/).
 For add KieryJS on your project, doing this command:
-```$ npm install kieryjs```
+```console
+$ npm install kieryjs
+```
 
 
 
