@@ -1,35 +1,37 @@
-![LOGO](https://i.postimg.cc/Y92GJnQ5/Group-1-1.png)
+---
+sidebar-position: 1
+---
 
-Minimalist, fast, simple web framework based on [ExpressJS](https://github.com/expressjs/express) for [node](https://nodejs.org/).
+# Introduction
 
-- [![npm version](https://img.shields.io/npm/v/kieryjs.svg)](https://www.npmjs.com/package/kieryjs)
-- [![npm download](https://img.shields.io/npm/dt/kieryjs.svg)](https://www.npmjs.com/package/kieryjs)
-- [![install size](https://packagephobia.com/badge?p=kieryjs)](https://packagephobia.com/result?p=kieryjs)
+⚡ KieryJS will help you to make **your own first dynamic website** with JavaScript.
 
-```javascript
-const kieryjs = require('kieryjs');
+💸 KieryJS **it's totally free**, create your own dynamic website now and publish the site with **[Vercel](https://vercel.com/)**.
 
-kieryjs.createServer({
-    index: 'index.ejs',
-    varPage: {},
-    port: 3000,
-    staticFolder: 'public'
-});
+📦 Thanks to **[NPM](https://www.npmjs.com/)**, it will be **easy to download** and use the **[Node.js](https://www.nodejs.com/)** package for the first time.
 
-kieryjs.createPage({
-    pathLink: 'second',
-    pathPage: 'second.ejs',
-    varPage: {}
-});
-```
+📂 KieryJS is **open source**, you can find its **[GitHub page](https://github.com/IlyesHernandez/kieryjs-express-framework)**, and you can **contribute to the development of the project**. The project is constantly evolving, and __does not have to be abandoned__.
 
-## Installation
-KieryJS is available on [nodejs](https://nodejs.org/), before installing, [download and install Node.js](https://nodejs.org/en/download/).
-For add KieryJS on your project, doing this command:
+## Fast Setup
+
+Use [GitHub](https://www.github.com/) for quickly setup your own webapp project.
+Clone the [get-stated-tamplate](https://github.com/IlyesHernandez/get-stated-tamplate-kieryjs) GitHub Reporitories :
 ```console
-$ npm install kieryjs
+$ git clone https://github.com/IlyesHernandez/get-stated-tamplate-kieryjs.git
+```
+After, you must to install all dependencies with [NPM](https://www.npmjs.com/package/kieryjs) :
+```console
+$ npm install
 ```
 
+### Start the Project
+If you need to start the project for development, do this :
+```console
+$ npm run dev
+``` 
 
+:::warning
 
+The build command (```$ npm run build```) **do not run**, this functionality is in **BETA**.
 
+:::
