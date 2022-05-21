@@ -14,7 +14,7 @@
     "name": "Ilyès Hernandez",
     "email": "<ilyeshernandez.pro@gmail.com>"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IlyesHernandez/kieryjs-express-framework/issues"
   },
