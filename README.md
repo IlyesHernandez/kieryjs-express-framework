@@ -1,7 +1,3 @@
----
-sidebar-position: 1
----
-
 # Introduction
 
 ⚡ KieryJS will help you to make **your own first dynamic website** with JavaScript.
@@ -28,10 +24,6 @@ $ npm install
 If you need to start the project for development, do this :
 ```console
 $ npm run dev
-``` 
-
-:::warning
-
+```
+# **WARNING**
 The build command (```$ npm run build```) **do not run**, this functionality is in **BETA**.
-
-:::
